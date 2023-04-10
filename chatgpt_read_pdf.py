@@ -16,6 +16,7 @@ from PIL import Image
 
 ## Logo
 image = Image.open(Path(__file__).parent / 'Logo_blanco.jpeg')
+st.image(image, width=150)
 
 st.markdown('<p class="medium-font">El código fue obtenido de https://www.youtube.com/watch?v=TLf90ipMzfE&t=434s e implementado en esta aplicación de Streamlit.', unsafe_allow_html=True)
 st.markdown('<p class="medium-font">Instrucciones', unsafe_allow_html=True)
