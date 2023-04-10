@@ -10,7 +10,11 @@ from io import StringIO
 
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
+from PIL import Image
 
+
+## Logo
+image = Image.open(Path(__file__).parent / 'Logo_blanco.jpeg')
 
 token = st.text_input('Token', 'Inserte aquí su token')
 
