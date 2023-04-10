@@ -5,4 +5,4 @@ streamlit
 pandas
 pillow
 openai
-faiss
+faiss-cpu
