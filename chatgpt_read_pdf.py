@@ -18,7 +18,9 @@ image = Image.open(Path(__file__).parent / 'Logo_blanco.jpeg')
 
 st.markdown('<p class="medium-font">El código fue obtenido de https://www.youtube.com/watch?v=TLf90ipMzfE&t=434s e implementado en esta aplicación de Streamlit.', unsafe_allow_html=True)
 st.markdown('<p class="medium-font">Instrucciones', unsafe_allow_html=True)
-st.markdown('<p class="medium-font">1. Obtenga un token en la siguiente dirección: https://platform.openai.com/account/billing/overview', unsafe_allow_html=True)
+st.markdown('<p class="medium-font">1. Obtenga un token de forma gratuita en la siguiente dirección: https://platform.openai.com/account/billing/overview . Es posible que luego de usarlo varias veces en esta aplicación, el token quede obsoleto \
+debido a que se acabó la prueba gratuita o por motivos de prevención de OpenIA. No es motivo de preocuparse ya que puede generarse otro token. Esta aplicación ha sido realizada solo con fines demostrativos. Tal vez pueda implementar su propia solución \
+siguiendo los pasos del video de YouTube indicado en el punto 1', unsafe_allow_html=True)
 st.markdown('<p class="medium-font">2. Ingrese el token en la siguiente espacio indicado. Esta aplicación no almacena tokens ni ningún tipo de información: De hecho no tengo espacio para ello', unsafe_allow_html=True)
 st.markdown('<p class="medium-font">3. Suba su archivo PDF y comience a hacer preguntas sobre el mismo.', unsafe_allow_html=True)
 
