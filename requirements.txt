@@ -4,3 +4,4 @@ tiktoken
 streamlit
 pandas
 pillow
+openai
