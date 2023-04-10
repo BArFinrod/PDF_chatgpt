@@ -2,7 +2,6 @@ from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAISS
-# tiktoken
 
 import os
 import streamlit as st
@@ -12,7 +11,6 @@ from io import StringIO
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
-# os.environ["OPENAI_API_KEY"] = "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"
 
 token = st.text_input('Token', 'Inserte aquí su token')
 
