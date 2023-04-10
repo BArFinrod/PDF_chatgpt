@@ -16,6 +16,12 @@ from PIL import Image
 ## Logo
 image = Image.open(Path(__file__).parent / 'Logo_blanco.jpeg')
 
+st.markdown('<p class="medium-font">El código fue obtenido de https://www.youtube.com/watch?v=TLf90ipMzfE&t=434s e implementado en esta aplicación de Streamlit.', unsafe_allow_html=True)
+st.markdown('<p class="medium-font">Instrucciones', unsafe_allow_html=True)
+st.markdown('<p class="medium-font">1. Obtenga un token en la siguiente dirección: https://platform.openai.com/account/billing/overview', unsafe_allow_html=True)
+st.markdown('<p class="medium-font">2. Ingrese el token en la siguiente espacio indicado. Esta aplicación no almacena tokens ni ningún tipo de información: De hecho no tengo espacio para ello', unsafe_allow_html=True)
+st.markdown('<p class="medium-font">3. Suba su archivo PDF y comience a hacer preguntas sobre el mismo.', unsafe_allow_html=True)
+
 token = st.text_input('Token', 'Inserte aquí su token')
 
 os.environ["OPENAI_API_KEY"] = token
